@@ -14,7 +14,7 @@ RUN apk --update add openjdk8-jre
 RUN apk add --no-cache git
 
 RUN npm i -g npm@7.10.0
-RUN npm i -g firebase-tools@9.10.0
+RUN npm i -g firebase-tools@7.7.0
 
 COPY LICENSE README.md /
 COPY "entrypoint.sh" "/entrypoint.sh"
