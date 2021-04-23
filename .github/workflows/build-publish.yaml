@@ -3,7 +3,7 @@ name: Build
 on:
   push:
     branches:
-      - master
+      - firebase_version
 
 jobs:
   build:
@@ -15,7 +15,7 @@ jobs:
       - name: docker/build-push
         uses: docker/build-push-action@v1
         with:
-          username: w9jds
+          username: dhruvinrakholiya
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: w9jds/firebase-action
+          repository: dhruvinrakholiya/firebase-action
           tags: latest
