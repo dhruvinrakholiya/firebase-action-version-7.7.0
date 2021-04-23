@@ -17,5 +17,5 @@ jobs:
         with:
           username: dhruvinrakholiya
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: dhruvinrakholiya/firebase-action
-          tags: latest
+          repository: dhruvinrakholiya/demo-ci-cd
+          branches: firebase_version
