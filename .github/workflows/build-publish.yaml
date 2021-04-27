@@ -18,4 +18,4 @@ jobs:
           username: dhruvin3346
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: dhruvin3346/firebase_action_version770
-          tags: tagname
+          tags: latest
